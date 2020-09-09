@@ -18,3 +18,12 @@ html {
 background-color:white    !important;
 }
 
+img.logos {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+ 	width: 5%;
+	height:5%;
+	overflow=hidden;
+}
+

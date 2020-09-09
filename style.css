@@ -1,119 +1,20 @@
-html, body {
- margin: 0;
- padding: 0;
- }
-body {
- background-color: white; 
- font-family: Verdana, sans-serif; 
- font-size: 100%;
- }
-.ace_menu {
-	font-size:85%;
-	text-align:right;
+html {
+  scroll-behavior: smooth;
 }
-.ace_menu_button {
-	/* border: 2px solid blue; */
-	color:black;
-}
-.ace_menu_button:hover {
-	background-color:  	#0000FF;
-	color: white;
-}
-
-h1 {
-	font-size: 200%; 
-	color: navy; 
-	text-align: center;
- }
-h2 {
-	font-size: 180%; 
-	color: red; 
-	/* padding-left: 15px; */
-	text-align:center;
- }
- h3 {
-	font-size: 150%;
-	color: black;
-	text-align:center;
- }
- h4 {
-	color: red;
-	text-align: center;
- }
- p {
-	text-align:center;
-	font-size:150%;
-}
-ul {
-	color:#BDB76B;
-	font-size:150%;
-	font-weight: bold;
-	font-style: italic;
-	text-align:center;
-}
-li,td {
-	color: black; 
- }
-a:link {
-	 color: gray;
-	 text-decoration: underline;
- }
-a:visited {
-	color: red;
- }
-a:hover {
-	color: green;
-	text-decoration: none;
-}
-a:active, a:focus {
-	color: red;
-}
-div.breakafter {
-	page-break-after: always;
-}
-img.logos {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
- 	width: 5%;
-	height:5%;
-	overflow=hidden;
-}
-
 #noscript {
 	font-size:200%;
 }
-img.banner {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
- 	width: 50%;
-	height:50%;
-	overflow=hidden;
+.carousel-control-prev-icon {
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
 }
-img.logo_partner {
-	display: inline-block;
-	vertical-align:middle;
-	margin-left: auto;
-	margin-right: auto;
- 	width: 10%;
-	height:10%;
-	overflow=hidden;
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
 }
-p.banner_slogan {
-	font-family: Impact, Charcoal, sans-serif;
-	font-size: 200%;
-	letter-spacing: 1%;
-	word-spacing: 1%;
-	color:blue;/*#123386;*/
-	font-weight: normal;
-	text-decoration: none;
-	font-style: normal;
-	font-variant: normal;/*small-caps;*/
-	/*text-transform: capitalize;*/
+.jumbotron {
+background-color:white    !important;
 }
-p.info {
-	font-size:75%;
-	color:black;
-}
-}
+

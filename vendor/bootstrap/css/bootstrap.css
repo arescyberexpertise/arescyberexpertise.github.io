@@ -6454,7 +6454,7 @@ a.close.disabled {
   display: none;
   float: left;
   width: 75%;
-  margin-right: -100%;
+  margin-right: -75%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: -webkit-transform 0.6s ease-in-out;
